@@ -2,17 +2,17 @@
 
 # User Defined Stuff
 
-folder="/home2/andy/spark"
-rom_name="spark"*.zip
+folder="/home2/andy/aicp"
+rom_name="aicp"*.zip
 gapps_command="WITH_GAPPS"
 with_gapps="no"
 build_type="userdebug"
-device_codename="lavender"
+device_codename="vayu"
 use_brunch="yes"
 OUT_PATH="$folder/out/target/product/${device_codename}"
-lunch="spark"
+lunch="aicp"
 user="andy"
-tg_username="@Anderson_CV"
+tg_username="@Equanimity_08"
 use_ccache=yes
 stopped=0
 finish=0
