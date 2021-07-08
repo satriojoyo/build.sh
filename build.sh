@@ -36,7 +36,7 @@ octavi="/home/dump/configs_iron/octavi.conf"
 sub1="/home/dump/configs_iron/sub1.conf"
 channel="/home/dump/configs_iron/channel.conf"
 nicola="/home/dump/configs_iron/nicola.conf"
-newpeeps="/home/andy/priv.conf"
+newpeeps="telegram-send --configure  --config /home/dump/configs_iron/andy.conf"
 
 # Folder specifity
 
@@ -67,14 +67,6 @@ export TERM=xterm
 	blu=$(tput setaf 4)             #  blue
 	cya=$(tput setaf 6)             #  cyan
 	txtrst=$(tput sgr0)             #  Reset
-
-# Ccache
-
-echo -e ${blu}"CCACHE is enabled for this build"${txtrst}
-export CCACHE_EXEC=$(which ccache)
-export USE_CCACHE=1
-export CCACHE_DIR=/home/$user/ccache
-ccache -M 75G
 
 # Time to build
 
